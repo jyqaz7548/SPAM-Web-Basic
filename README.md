@@ -35,3 +35,32 @@ TypeScript: 타입기능이 업그레이드 된 자바스크립트
 
 8.serverless
 serverless:서버역할을 대신 해주는 서비스
+
+p태그
+
+- 1번
+- 2번
+- 3번
+
+### 수업
+
+# javaSript 공부
+
+## 실행하는 법
+
+실행문법은 js파일에
+
+```javascript
+console.log("Hello World");
+```
+
+이런 식으로 치고
+html 파일에 바디 밑에 script:src라는 단축어 를 써서 ""안에 /js/파일이름을 쓸 수 도 있고 백엔드에선 html 파일에 바디 밑 스크립트 안에
+
+```javascript
+console.log("Hello World!");
+```
+
+이런 식으로 실행 하면 되고
+터미널에 node app.js를 써서 확인하거나 라이브서버에서 f12를 눌러서
+콘솔창을 봐서 확인할 수 있는게 정석적인 루트이고 또 다른 루트는 확장에서 coderunner이라는 프로그램을 설치해서 run code버튼을 통해 확인 할 수 있다.
