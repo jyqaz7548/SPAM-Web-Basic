@@ -64,3 +64,17 @@ console.log("Hello World!");
 이런 식으로 실행 하면 되고
 터미널에 node app.js를 써서 확인하거나 라이브서버에서 f12를 눌러서
 콘솔창을 봐서 확인할 수 있는게 정석적인 루트이고 또 다른 루트는 확장에서 coderunner이라는 프로그램을 설치해서 run code버튼을 통해 확인 할 수 있다.
+
+### 수업
+
+# html 과 css 연결
+
+## 연결하는 법
+
+html 파일의 <head> 안에 <link>라는 단축키를 써서 herf= 에 css주소를 집어 넣으면 된다.
+그리고 css로 html에 속성을 넣기 위해서는 class와id 속성이 있다.
+class는 html 파일 <body> 안에 <div>,<h1>등 안에 class 자동완성 한 담에 class=에 내용, >와 </div> 사이에 클래스 이름을 쓰면 된다.
+그리고 지정한 주소의 css에 .(class속성에넣은 내용)을 쓰고 대괄호 안에 back자동완성 첫번째로 색을 입힐 수 있다.
+
+id는 class 와 똑같지만 id 자동완성 하고 내용,이름 까지 똑같다.  
+id도 css에 #(id속성에 넣은 내용)쓰고 난 후에는 class 태그와 똑같다.
