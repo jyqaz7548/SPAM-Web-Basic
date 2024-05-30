@@ -175,3 +175,45 @@ for (let i = 1; i <= 9; i++) {
 ```
 
 조건식 - > 실행문 -> 증감식
+
+### 수업
+
+# array
+
+array 는 변수 자료형중 하나인데 순서가 있는 데이터 묶음이다
+예)속성값1,속성값2,속성값3,속성값4...
+array의 데이터는 0부터 시작한다. 그리고 자료형을 섞어 사용할 수있다.
+
+또한 for문으로 활용 할수 있다.
+
+예시 )
+
+```javascript
+for (let arg of array) {
+  console.log(arg); // 출력값: 1 2 3 4 5 6 7 8 9 10
+}
+```
+
+# object
+
+object는 키값으로 묶은 데이터 묶음이다
+예) 키값1:데이터:1,키값2:데이터:2...
+
+배열과 마찬가지로 모든 자료형을 같이 쓸 수 있다.
+
+# object 와 array
+
+object와 array는 같이 쓸 수 있는데
+예를 들어
+
+```javascript
+const students = [
+  { name: "준석", age: 17 },
+  { name: "준영", age: 17 },
+  { name: "승원", age: 17 },
+  { name: "윤솔", age: 17 },
+  { name: "예건", age: 17 },
+];
+```
+
+이런 식으로 쓰면 array와 object를 함께 쓰는 것이다.
