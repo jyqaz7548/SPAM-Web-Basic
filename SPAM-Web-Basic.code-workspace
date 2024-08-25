@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../바탕 화면/css/css_assignment_2024"
+	},
+	{
+		"path": "../practice"
+	}
+],
+  "settings": {
+    "vscode-pets.petSize": "medium",
+    "liveServer.settings.multiRootWorkspaceName": "css_assignment_2024"
+  }
+}
